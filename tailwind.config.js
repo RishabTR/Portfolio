@@ -28,14 +28,14 @@ module.exports = {
 				DEFAULT:"#00ff99",
 				hover:"#00e187"
 			},
-  			background: 'var(--background)',
-  			foreground: 'var(--foreground)'
+  			// background: 'var(--background)',
+  			// foreground: 'var(--foreground)'
   		},
-  		borderRadius: {
-  			lg: 'var(--radius)',
-  			md: 'calc(var(--radius) - 2px)',
-  			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		// borderRadius: {
+  		// 	lg: 'var(--radius)',
+  		// 	md: 'calc(var(--radius) - 2px)',
+  		// 	sm: 'calc(var(--radius) - 4px)'
+  		// }
   	}
   },
   plugins: [require("tailwindcss-animate")],
